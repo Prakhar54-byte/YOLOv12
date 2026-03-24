@@ -499,7 +499,7 @@ def download(url, dir=Path.cwd(), unzip=True, delete=False, curl=False, threads=
                     curl=curl,
                     retry=retry,
                     exist_ok=exist_ok,
-                    progress=threads <= 1,
+                    progress=True,
                 ),
                 zip(url, repeat(dir)),
             )
