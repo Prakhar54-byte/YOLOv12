@@ -1,1 +1,23 @@
-*__pycache__/
+# Python
+**/__pycache__/
+*.pyc
+
+# Environment
+venv/
+.env
+
+# Data & Models (Large Files)
+datasets/
+*.pt
+*.zip
+*.partial
+
+# Training Outputs
+yolov12_paper_training/
+runs/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
